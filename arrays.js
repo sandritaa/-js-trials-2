@@ -6,7 +6,7 @@ function printIndices(items) {
     console.log(i, items[i]);
   }
 }
-// printIndices(["car", "horse"]);
+printIndices(["car", "horse"]);
 
 // 2. everyOtherItem
 function everyOtherItem(items) {

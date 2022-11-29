@@ -13,8 +13,8 @@ console.log(getFullName("sandra", "N"));
 
 // 3. calculateTotal
 
-const calculateTotal = (base_price, state, tax = 0.05) => {
-  let subtotal = base_price * (1 + tax);
+const calculateTotal = (basePrice, state, tax = 0.05) => {
+  let subtotal = basePrice * (1 + tax);
   let fee = 0;
 
   if (state === "CA") {
